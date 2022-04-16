@@ -11,7 +11,7 @@ for (i = 0; i = 10; i++){
             alert(Nombre+ " " + "Felicidades, haz roto el Bucle");
             break;
         }
-        if (ClaveRojo != "1234"){
+        else if(ClaveRojo != "1234"){
             alert("No ingresaste una clave valida");
         }
     }
@@ -25,7 +25,7 @@ for (i = 0; i = 10; i++){
                 alert(Nombre+ " " + "Felicidades, haz roto el Bucle");
                 break;
             }
-            if (ClaveAzul != "159"){
+            else if(ClaveAzul != "159"){
                 alert("No ingresaste una clave valida");
             }
         }
@@ -39,7 +39,7 @@ for (i = 0; i = 10; i++){
                 alert(Nombre+ " " + "Felicidades, haz roto el Bucle");
                 break;
             }
-            if (ClaveAmarillo != "753"){
+            else if(ClaveAmarillo != "753"){
                 alert("No ingresaste una clave valida");
             }
         }
